@@ -1,6 +1,4 @@
 #include <main.h>
-#include <studo.h>
-#include <stdlib.h>
 #include <stdo.h>
 
 int main(void);
