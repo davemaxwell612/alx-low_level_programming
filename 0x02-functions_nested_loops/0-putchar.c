@@ -1,16 +1,19 @@
 #include <main.h>
-#include <stdo.h>
-
-int main(void);
+/**
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
+int main(void)
 {
-	int i;
+	char ermias[] = "_putchar";
+	
+	int c;
 
-	_putchar ('D');
-	_putchar ('');
-	for (i = 1; i <= 10; i++);
+	for (c = 0; c < 8; c++)
 	{
-		_putchar ('!');
+		_putchar(ermias[c]);
 	}
-	_putchar ('\n');
-	return ('0');
-}
+	_putchar('\n');
+	return (0);
+}	
